@@ -5,12 +5,12 @@ module.exports = {
     siteTitle: 'Sarthak Narayan',
     siteDescription: 'My blog cum personal portfolio website',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog-netlify-cms.now.sh/',
+    siteUrl: 'https://sarthak-narayan.netlify.app/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Sarthak Narayan', // for example - 'Ivan Ganev'
-    authorDescription: 'hello there', // short text about the author
+    authorDescription: 'Full stack developer', // short text about the author
     avatar: '/mypic.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
