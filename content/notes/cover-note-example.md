@@ -5,6 +5,7 @@ date: 2021-03-20T10:48:57.406Z
 tags:
   - note
   - project
+hide: true
 ---
 Note with a cover image and an image inside of it.
 
