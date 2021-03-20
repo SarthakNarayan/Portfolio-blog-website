@@ -1,6 +1,10 @@
 ---
+title: Youtube example
 date: 2018-10-26
-tags: ['video', 'note']
+tags:
+  - video
+  - note
+hide: true
 ---
 
 <Embed
