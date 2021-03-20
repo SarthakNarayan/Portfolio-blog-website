@@ -1,6 +1,10 @@
 ---
+title: Podcast Example
 date: 2019-08-05
-tags: ['note', 'podcast']
+tags:
+  - note
+  - podcast
+hide: true
 ---
 
 <iframe
