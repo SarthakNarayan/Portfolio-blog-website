@@ -16,8 +16,8 @@ module.exports = {
     twitterCreator: '', // creator account on twitter
     social: [
       {
-        icon: `at`,
-        url: `sarthak.narayang@gmail.com`,
+        icon: `envelope`,
+        url: `mailto:sarthak.narayang@gmail.com`,
       },
       {
         icon: `github`,
