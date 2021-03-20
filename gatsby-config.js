@@ -3,14 +3,14 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     siteTitle: 'Sarthak Narayan',
-    siteDescription: 'My blog cum personal portfolio website',
+    siteDescription: 'Sarthak blog cum personal portfolio website',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://sarthak-narayan.netlify.app/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Sarthak Narayan', // for example - 'Ivan Ganev'
-    authorDescription: 'Full stack developer', // short text about the author
+    authorDescription: '', // short text about the author
     avatar: '/mypic.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
