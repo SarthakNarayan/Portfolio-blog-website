@@ -6,6 +6,7 @@ date: 2021-03-20T11:04:07.910Z
 tags:
   - link
   - project
+hide: true
 ---
 **Link card** is a card, when clicked, the user goes to the specified link.
 
