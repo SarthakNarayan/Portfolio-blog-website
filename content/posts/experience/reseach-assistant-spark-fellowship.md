@@ -3,6 +3,7 @@ title: Reseach Assistant (SPARK Fellowship)
 date: 2020-07-31T12:24:45.284Z
 description: Indian Institute of Technology Roorkee
 tags:
+  - experience
   - Deep-Learning
   - Object-Detection
   - Python
