@@ -1,9 +1,12 @@
 ---
 title: Research Assistant
-date: 2019-07-01T12:02:45.840Z
+date: 2019-07-15T12:02:45.840Z
 description: Indian Institute of Technology Bombay
 tags:
   - experience
+  - OpenCV
+  - Python
+  - Computer-Vision
 ---
 I worked under **Dr. Siddharth Tallur** (Assistant Prof, Dept. Electrical Engineering, IIT Bombay). My work involved developing software to do motion analysis of a medium's particles and draw some inference about its intrinsic properties. I used different image processing techniques for tracking the motion of the particles. I also worked on a simulation to simulate the Brownian motion of particles. I then worked on developing a GUI for the software.
 
