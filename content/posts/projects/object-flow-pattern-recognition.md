@@ -1,6 +1,6 @@
 ---
 title: Object Flow Pattern Recognition
-date: 2021-03-22T05:42:40.867Z
+date: 2018-07-15T05:42:40.867Z
 description: An OpenCV and Deep Learning project aimed at tracking objects.
 tags:
   - project
@@ -15,6 +15,8 @@ In deep learning, **ResNet** was used for classification. Transfer learning and 
 <Embed
   src="https://www.youtube.com/embed/to8-a4RE6pk"
 />
+
+
 
 <p style="text-align: center;"> HSV (Color) based object tracking </p>
 
