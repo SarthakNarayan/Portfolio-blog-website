@@ -12,7 +12,9 @@ In deep learning, **ResNet** was used for classification. Transfer learning and 
 
 <p style="text-align: center;"> Lucas Kanade based object tracking </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/to8-a4RE6pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<Embed
+  src="https://www.youtube.com/embed/to8-a4RE6pk"
+/>
 
 <p style="text-align: center;"> HSV (Color) based object tracking </p>
 
@@ -27,6 +29,6 @@ In deep learning, **ResNet** was used for classification. Transfer learning and 
 **Software:** OpenCV
 
 <p style="text-align: center;">
-<a href="https://github.com/SarthakNarayan/Summer-Project">Hello there 2</a>
+<a href="https://github.com/SarthakNarayan/Summer-Project"><FontAwesomeIcon icon={\['fab', 'google']} /></a>
 
 </p>
