@@ -16,7 +16,7 @@ In deep learning, **ResNet** was used for classification. Transfer learning and 
   src="https://www.youtube.com/embed/to8-a4RE6pk"
 />
 
-
+<br />
 
 <p style="text-align: center;"> HSV (Color) based object tracking </p>
 
