@@ -22,6 +22,8 @@ The goggles had three camera modules, two for tracking the pupil movement and th
 
 </div>
 
+<p style="text-align: center"> Working video </p>
+
 <Embed
   src="https://www.youtube.com/embed/5lzAPG3GL5c"
 />
