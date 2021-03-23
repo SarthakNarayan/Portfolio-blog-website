@@ -52,3 +52,28 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 <a href="https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management">Link to Research Paper</a>
 
 </p>
+
+<center>
+
+<style>
+
+A.fa-github:link {
+  color: rgb(0, 4, 255);
+  text-decoration: none;
+  }
+
+  A.fa-github:visited {
+  color: rgb(0, 4, 255);
+  text-decoration: none
+  }
+
+  A.fa-github:hover {
+  color: red;
+  text-decoration: none;
+  }
+
+ </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a class="fa fa-github" style="font-size:48px;color:black;margin: auto" href="https://github.com/SarthakNarayan/Summer-Project"></a>
+</center>
