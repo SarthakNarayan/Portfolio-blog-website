@@ -1,7 +1,7 @@
 ---
 title: Search and Reconnaissance Robot (SRR)
 cover: /media/al-body.jpg
-date: 2021-03-23T04:59:33.585Z
+date: 2019-03-15T04:59:33.585Z
 description: To design and fabricate an all-terrain robot for finding survivors
   in earth quake.
 tags:
