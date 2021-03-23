@@ -1,5 +1,6 @@
 ---
 title: Object Flow Pattern Recognition
+cover: /media/object-flow-cover-image.png
 date: 2018-07-15T05:42:40.867Z
 description: An OpenCV and Deep Learning project aimed at tracking objects.
 tags:
