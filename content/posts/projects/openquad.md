@@ -26,8 +26,12 @@ Serial communication is used to communicate between Pixhawk and RaspberryPi. Ras
   src="https://www.youtube.com/embed/j4qfZbA911A"
 />
 
+<br />
+
 <center>
 <a href="https://github.com/OpenQuad-RMI/openquad">Link to GitHub</a>
+
+<br />
 
 <a href="https://hub.docker.com/r/openquad/openquadimage">Link to Docker Container</a>
 
