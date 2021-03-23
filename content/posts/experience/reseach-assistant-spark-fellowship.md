@@ -5,7 +5,6 @@ description: Indian Institute of Technology Roorkee
 tags:
   - experience
   - Deep-Learning
-  - Object-Detection
   - Python
   - PyTorch
 ---
