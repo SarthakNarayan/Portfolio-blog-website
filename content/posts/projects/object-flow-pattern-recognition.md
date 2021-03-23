@@ -7,6 +7,7 @@ tags:
   - project
   - OpenCV
   - Deep-Learning
+  - Python
 ---
 The project aimed to track the motion of any object as specified by the user and recognize the shapes drawn by him/her. Tracking was achieved in two different ways. OpenCV's **Lucas Canade optical flow algorithm** was used for tracking in unpredictable lighting conditions, whereas **HSV color filtering tracking** was used for more reliable lighting conditions. Lucas Canade optical flow algorithm's main drawback was that objects must be moved slowly; otherwise, the tracker would lose it. The image obtained was then saved and passed to a neural network.
 In deep learning, **ResNet** was used for classification. Transfer learning and data augmentation were used to overcome the problem of lack of training data.
