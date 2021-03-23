@@ -26,3 +26,23 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 ![Image of servo position](/media/b2.png "Servo positions")
 
 ![Image of articulation over an obstacle](/media/b3.png "Articulation over an obstacle")
+
+<p style="text-align: center;"> SRR avoiding obstacles using its articulating chassis </p>
+
+<Embed
+  src="https://www.youtube.com/embed/hqSBQtawzKE"
+/>
+
+<br />
+
+<p style="text-align: center;">
+<a href="https://github.com/SarthakNarayan/DSARR">Link to GitHub</a>
+
+</p>
+
+<br />
+
+<p style="text-align: center;">
+<a href="https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management">Link to Research Paper</a>
+
+</p>
