@@ -1,7 +1,7 @@
 ---
 title: OpenQuad
 cover: /media/openquad_front.jpg
-date: 2021-03-23T06:41:09.852Z
+date: 2020-07-15T06:41:09.852Z
 description: To build an open source quad copter platform for research work.
 tags:
   - project
