@@ -17,6 +17,8 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 
 <p style="text-align: center;"> Different modes of operation for climbing an obstacle </p>
 
+<div style="text-align: center;"> 
+
 ![Image of Mode 1](/media/mode_1.png "First Mode")
 
 ![Image of Mode 2](/media/mode_2.png "Second Mode")
@@ -30,6 +32,8 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 ![Image of servo position](/media/b2.png "Servo positions")
 
 ![Image of articulation over an obstacle](/media/b3.png "Articulation over an obstacle")
+
+</div>
 
 <p style="text-align: center;"> SRR avoiding obstacles using its articulating chassis </p>
 
