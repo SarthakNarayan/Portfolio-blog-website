@@ -6,7 +6,6 @@ tags:
   - experience
   - OpenCV
   - Python
-  - Computer-Vision
 ---
 I worked under **Dr. Siddharth Tallur** (Assistant Prof, Dept. Electrical Engineering, IIT Bombay). My work involved developing software to do motion analysis of a medium's particles and draw some inference about its intrinsic properties. I used different image processing techniques for tracking the motion of the particles. I also worked on a simulation to simulate the Brownian motion of particles. I then worked on developing a GUI for the software.
 
