@@ -1,7 +1,7 @@
 ---
 title: Parallel Manipulator
 cover: /media/pm_1.jpg
-date: 2021-03-23T04:46:54.584Z
+date: 2018-09-15T04:46:54.584Z
 description: 2-DOF robotic manipulator that writes as you draw in mid-air in
   front of a laptop’s webcam
 tags:
