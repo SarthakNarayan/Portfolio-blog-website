@@ -53,8 +53,6 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 
 </p>
 
-<center>
-
 <style>
 
 A.fa-github:link {
@@ -73,6 +71,8 @@ A.fa-github:link {
   }
 
  </style>
+
+<center>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <a class="fa fa-github" style="font-size:48px;color:black;margin: auto" href="https://github.com/SarthakNarayan/Summer-Project"></a>
