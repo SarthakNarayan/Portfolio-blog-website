@@ -1,7 +1,7 @@
 ---
 title: Inventory Management Application
 cover: /media/inventory-management-cover-image.png
-date: 2021-03-24T08:52:19.549Z
+date: 2020-12-10T08:52:19.549Z
 description: Built an inventory management tool using Electron, React and Nedb
 tags:
   - project
