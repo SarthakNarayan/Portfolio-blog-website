@@ -18,11 +18,15 @@ For more detailed description of the project and video links please refer the li
 
 <a href="https://github.com/SarthakNarayan/mern-tracker" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
-<br />
+</p>
+
+<p style="text-align: center;">
 
 <a href="https://www.notion.so/sarthaknarayan/MERN-Tracker-421b6193083441f092cc5f8541e1747c" target="_blank" rel="noopener noreferrer">Link to Notion Notes</a>
 
-<br />
+</p>
+
+<p style="text-align: center;">
 
 <a href="https://mern-tracker-sarthak.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Demo</a>
 
