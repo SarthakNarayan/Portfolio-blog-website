@@ -1,5 +1,6 @@
 ---
 title: Kindle2Notion
+cover: /media/image-notion2py-2.png
 date: 2021-02-07T10:41:21.188Z
 description: To organize Kindle highlights to Notion Pages
 tags:
