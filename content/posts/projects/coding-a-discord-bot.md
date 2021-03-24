@@ -15,10 +15,14 @@ During the pandemic, one of the most famous multiplayer games was Among Us. Alth
 
 For more information on the project one can refer my notion notes that I took while building the project. It also contains some video references that I saw for this project.
 
-<center>
+<p style="text-align: center;">
 
-[Link to GitHub](https://github.com/SarthakNarayan/discordMuteBot)
+<a href="https://github.com/SarthakNarayan/discordMuteBot" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
-[Link to Notion Notes](https://www.notion.so/sarthaknarayan/Coding-a-discord-bot-a4012665fd7946dea5edf11192165c52)
+</p>
 
-</center>
+<p style="text-align: center;">
+
+<a href="https://www.notion.so/sarthaknarayan/Coding-a-discord-bot-a4012665fd7946dea5edf11192165c52" target="_blank" rel="noopener noreferrer">Link to Notion Notes</a>
+
+</p>
