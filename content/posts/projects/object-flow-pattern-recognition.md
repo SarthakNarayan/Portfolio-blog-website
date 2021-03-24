@@ -33,6 +33,6 @@ In deep learning, **ResNet** was used for classification. Transfer learning and 
 **Software:** OpenCV
 
 <p style="text-align: center;">
-<a href="https://github.com/SarthakNarayan/Summer-Project">Link to GitHub</a>
+<a href="https://github.com/SarthakNarayan/Summer-Project" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
 </p>
