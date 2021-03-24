@@ -7,6 +7,7 @@ tags:
   - nodejs
   - React
   - Docker
+  - Javascript
 ---
 I worked as a full-stack developer intern as buyer assist. It is a startup that aims to simplify and ease B2B transactions between companies. While working on the frontend, I worked with **React** and **Keycloak** to build the app's login system. 
 
