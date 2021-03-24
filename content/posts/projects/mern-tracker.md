@@ -14,7 +14,7 @@ For more detailed description of the project and video links please refer the li
 
 **Language:** Javascript
 
-<center>
+<p style="text-align: center;">
 
 <a href="https://github.com/SarthakNarayan/mern-tracker" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
@@ -26,4 +26,4 @@ For more detailed description of the project and video links please refer the li
 
 <a href="https://mern-tracker-sarthak.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Demo</a>
 
-</center>
+</p>
