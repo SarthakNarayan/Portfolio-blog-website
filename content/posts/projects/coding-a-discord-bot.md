@@ -1,7 +1,7 @@
 ---
 title: Coding a discord bot
 cover: /media/discord-project-cover-image.jpg
-date: 2021-03-24T06:21:11.160Z
+date: 2020-10-14T06:21:11.160Z
 description: A discord mute bot for muting and unmuting everyone in the voice channel
 tags:
   - project
