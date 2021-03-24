@@ -29,3 +29,9 @@ Once searched using the SAP NO it would show the net amount of that item availab
 <a href="https://github.com/SarthakNarayan/electron-react-inventory-management" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
 </p>
+
+<p style="text-align: center;">
+
+<a href="https://drive.google.com/file/d/1j_471GMi9a1ZQKg-XaezLTEFXCQWCzd7/view?usp=sharing" target="_blank" rel="noopener noreferrer">Link to Downloadable Application</a>
+
+</p>
