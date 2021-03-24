@@ -1,6 +1,6 @@
 ---
 title: MERN Tracker
-cover: /media/mern-cover-image.png
+cover: /media/mern-stack-1.png
 date: 2020-11-15T07:57:51.792Z
 description: Built a exercise tracker app using the MERN stack
 tags:
@@ -16,10 +16,14 @@ For more detailed description of the project and video links please refer the li
 
 <center>
 
-<a href="https://github.com/SarthakNarayan/mern-tracker" target="_blank">Link to GitHub</a>
+<a href="https://github.com/SarthakNarayan/mern-tracker" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
-<a href="https://www.notion.so/sarthaknarayan/MERN-Tracker-421b6193083441f092cc5f8541e1747c" target="_blank">Link to Notion Notes</a>
+<br />
 
-<a href="https://mern-tracker-sarthak.herokuapp.com/" target="_blank">Link to Demo</a>
+<a href="https://www.notion.so/sarthaknarayan/MERN-Tracker-421b6193083441f092cc5f8541e1747c" target="_blank" rel="noopener noreferrer">Link to Notion Notes</a>
+
+<br />
+
+<a href="https://mern-tracker-sarthak.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Demo</a>
 
 </center>
