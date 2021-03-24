@@ -44,11 +44,11 @@ The bot had a unique articulating chassis which assisted its locomotion in uneve
 <br />
 
 <p style="text-align: center;">
-<a href="https://github.com/SarthakNarayan/DSARR">Link to GitHub</a>
+<a href="https://github.com/SarthakNarayan/DSARR" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
 
 </p>
 
 <p style="text-align: center;">
-<a href="https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management">Link to Research Paper</a>
+<a href="https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management" target="_blank" rel="noopener noreferrer">Link to Research Paper</a>
 
 </p>
