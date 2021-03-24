@@ -22,6 +22,6 @@ involving deep learning for object detection on aerial images from drones. The r
 
 **Deep Learning Framework:** PyTorch
 
-[Link to final presentation](https://drive.google.com/file/d/1SL8HH0igMe9t4NtRBV8jXpD4Lnl1GeN0/view)
+<p style="text-align: center;"> <a href="https://drive.google.com/file/d/1SL8HH0igMe9t4NtRBV8jXpD4Lnl1GeN0/view" target="_blank" rel="noopener noreferrer">Link to Final Presentation</a> </p>
 
-[Link to research paper](https://www.researchgate.net/publication/342919081_Improving_Accuracy_and_Efficiency_of_Object_Detection_Algorithms_using_Multiscale_Feature_Aggregation_Plugins)
+<p style="text-align: center;"> <a href="https://www.researchgate.net/publication/342919081_Improving_Accuracy_and_Efficiency_of_Object_Detection_Algorithms_using_Multiscale_Feature_Aggregation_Plugins" target="_blank" rel="noopener noreferrer">Link to Research Paper</a> </p>
