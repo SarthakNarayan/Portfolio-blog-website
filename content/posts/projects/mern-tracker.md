@@ -7,6 +7,7 @@ tags:
   - project
   - nodejs
   - React
+  - Javascript
 ---
 Built an exercise tracker app using the MERN stack. This was inspired by a video from freecodecamp. I used bootstrap for styling. The project was hosted on heroku. This was one of the projects which helped me learn full stack development.
 
