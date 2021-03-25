@@ -10,7 +10,7 @@ tags:
 >
   <label>
     Your email:
-    <input type="email" name="_replyto">
+    <input type="email" name="_replyto"/>
   </label>
   <label>
     Your message:
