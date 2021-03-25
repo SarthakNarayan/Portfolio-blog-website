@@ -20,3 +20,11 @@ tags:
   <button type="submit">Send</button>
 
 </form>
+
+<style>
+
+\* {
+  box-sizing: border-box;
+}
+
+</style>
