@@ -1,9 +1,10 @@
 ---
 title: Contact Me
 date: 2021-03-25T14:19:20.276Z
-description: Send me a message and I will make sure to get back to you
+description: Send me a message and I will make sure to get back to you.
 tags:
-  - note
+  - contact
+hide: true
 ---
 <div style="border-radius: 5px;
   background-color: #f2f2f2;
