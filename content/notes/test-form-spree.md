@@ -22,7 +22,7 @@ tags:
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;">
+  resize: vertical;" />
 
 <label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject.." style="width: 100%;
@@ -32,7 +32,7 @@ tags:
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;">
+  resize: vertical;" />
 
 <label for="email">Email</label>
     <input type="email" id="email" name="email" placeholder="Your email.." style="width: 100%;
@@ -42,8 +42,7 @@ tags:
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;">
-
+  resize: vertical;" />
 
 <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 100%;
@@ -60,7 +59,7 @@ tags:
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;">
+  cursor: pointer;" />
 
 </form>
 
