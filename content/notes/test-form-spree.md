@@ -20,3 +20,15 @@ tags:
   <button type="submit">Send</button>
 
 </form>
+
+
+
+<style>
+
+" .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}"
+
+</style>
