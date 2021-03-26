@@ -13,8 +13,6 @@ tags:
   action="https://formspree.io/f/xlearwkb"
   method="POST"
 >
-
-<label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your name.." style="width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -23,8 +21,6 @@ tags:
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;" />
-
-<label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject.." style="width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -33,8 +29,6 @@ tags:
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;" />
-
-<label for="email">Email</label>
     <input type="email" id="email" name="email" placeholder="Your email.." style="width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -43,9 +37,7 @@ tags:
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;" />
-
-<label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 100%;
+    <textarea id="message" name="message" placeholder="Your Message.." style="height:200px; width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -54,12 +46,16 @@ tags:
   margin-bottom: 16px;
   resize: vertical;"></textarea>
 
+<center>
+
   <input type="submit" value="Submit" style="background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;" />
+
+</center>
 
 </form>
 
