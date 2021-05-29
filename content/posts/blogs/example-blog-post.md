@@ -1,93 +1,53 @@
 ---
-title: Example blog post
-cover: /media/cover_image_post_example.jpg
-date: 2021-03-20T11:15:28.500Z
-description: All the usual blog post.
-slug: my-slug
+title: Using bookmarklets on YouTube
+cover: /media/using-bookmarklets-cover.jpg
+date: 2021-05-29T15:02:48.381Z
+description: This post shows how you can use bookmarklets to remove the YouTube
+  control panel.
+slug: bookmarklets
 tags:
   - post
+draft: false
 ---
-This is an example blog post. All your blog posts should be here: `content/posts`.
+This post is a step by step process on how you can use bookmarklets to toggle the visibility of the YouTube control panel using simple JavaScript. So how did I get this idea? 
 
-Websites like Reddit, StackOverflow, and GitHub had millions of people using Markdown. And Markdown started to be used beyond the web, to author books, articles, slide shows, letters, and lecture notes.
+Well, apart from recreation I use YouTube for learning a lot of new things. So in the process of learning new things, I always make notes which I can refer to in the future. For making notes sometimes I take screenshots of the content by pausing playback. But as we all know when you pause playback in YouTube you have the control panel at the bottom which cannot be removed and looks bad when present in notes. Hence to resolve this issue I thought of making a bookmarklet. 
 
-What distinguishes Markdown from many other lightweight markup syntaxes, which are often easier to write, is its readability. As Gruber writes:
+Another question I pondered was whether I should use a bookmarklet or a browser extension. Since I had to do simple DOM manipulations bookmarklet was the easiest and the fastest option. Some differences between a bookmarklet and an extension are:
 
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+* A bookmarklet is activated only when you click it. A browser extension, on the other hand, is always running in the background
+* An extension can take more resources and cause the browser to slow down.
+* Apart from speed, bookmarklets are also safer than extensions. Some extensions are known to be malicious, and they gain access to more information stored in your browser than what a bookmarklet does. A bookmarklet will only read the data that you send to any website you visit. An extension can tap into your browser settings too.
+* A bookmarklet isn't dependent on the browser, while extensions are made for particular browsers. You can use any bookmarklet in any browser, and it works exactly the same way.
 
-## Frontmatter
-
-Metadata for your Markdown.
-
-In this post it looks like this:
-
-Read more about this setting here: [github.com/Chronoblog/gatsby-theme-chronoblog#posts](https://github.com/Chronoblog/gatsby-theme-chronoblog#posts)
-
-## Markdown
-
-This post is a `markdown` file and you can do everything in it that allows you to do markdown.
-
-### Headers
-
-# This is an `<h1>` tag
-
-## This is an `<h2>` tag
-
-###### This is an `<h6>` tag
-
-*This text will be italic*\
-**This text will be bold**
-
-### Lists
-
-* Item 1
-* Item 2
-
-  * Item 2a
-  * Item 2b
-
-### Images
-
-![image-in-post](/media/image-in-post.jpg "This is the title of the image")
-
-[github.com/Chronoblog/gatsby-theme-chronoblog](https://github.com/Chronoblog/gatsby-theme-chronoblog)
-
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-
-### Inline code
-
-**`js:`**
+With differences out of the way we can focus on the code.
 
 ```javascript
-const someFun = (text) => {
-  console.log('some ' + text);
-};
-someFun('text');
+let data = document.getElementsByClassName('ytp-chrome-top')[0].style.visibility;
+let brand = document.getElementsByClassName('branding-img')[0]
+
+if (data === "hidden"){
+  document.getElementsByClassName('ytp-chrome-top')[0].style.visibility = 'visible';
+  document.getElementsByClassName('ytp-chrome-controls')[0].style.visibility = 'visible';
+  document.getElementsByClassName('ytp-gradient-top')[0].style.visibility = 'visible';
+  document.getElementsByClassName('ytp-gradient-bottom')[0].style.visibility = 'visible';
+  document.getElementsByClassName('ytp-progress-bar')[0].style.visibility = 'visible';
+  document.getElementsByClassName('ytp-progress-bar-container')[0].style.visibility = 'visible';
+  if (brand) {
+    document.getElementsByClassName('branding-img')[0].style.visibility = "visible"
+  }
+}
+else {
+  document.getElementsByClassName('ytp-chrome-top')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('ytp-chrome-controls')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('ytp-gradient-top')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('ytp-gradient-bottom')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('ytp-progress-bar')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('ytp-progress-bar-container')[0].style.visibility = 'hidden';
+  if (brand) {
+    document.getElementsByClassName('branding-img')[0].style.visibility = "hidden"
+  }
+}
 ```
 
-**`css:`**
-
-```css
-.thing {
-  font-size: 16px;
-  width: 100%;
-}
-@media screen and (min-width: 40em) {
-  font-size: 20px;
-  width: 50%;
-}
-@media screen and (min-width: 52em) {
-  font-size: 24px;
-}
-```
-
-**`jsx:`**
-
-```jsx
-<Thing fontSize={[16, 20, 24]} width={[1, 1 / 2]} />
-```
-
-What distinguishes Markdown from many other lightweight markup syntaxes, which are often easier to write, is its readability
+We can see that code is nothing but simple DOM manipulations.
