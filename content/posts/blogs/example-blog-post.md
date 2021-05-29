@@ -60,4 +60,4 @@ Paste your code in the JS section and click on convert to Data URL button. Wait 
 
 ![](/media/image2-post-bookmarklets.png "Paste the code in the URL section, name the extension and save it.")
 
-Now go to any YouTube extension and test the extension. It should be working as expected.
+Now go to any YouTube video and click on the bookmarklet and it should be working as expected.
