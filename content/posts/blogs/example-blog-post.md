@@ -50,4 +50,12 @@ else {
 }
 ```
 
-We can see that code is nothing but simple DOM manipulations.
+We can see that code is nothing but simple DOM manipulations. 
+
+Once we are done writing the code we have to convert it so that we can use it as a URL for a bookmark. There are sites which can do this conversion. [JS to bookmarklet conversion website](https://www.yourjs.com/bookmarklet/).
+
+Paste your code in the JS section and click on convert to Data URL button. Wait for the conversion. Once done copy the converted code.
+
+![](/media/image1-post-bookmarklets.png "Right-click on the bookmark bar (below the address bar) and then select Add page")
+
+Paste the code in the URL section, name the extension and save it. Now go to any YouTube extension and test the extension. It should be working as expected.
