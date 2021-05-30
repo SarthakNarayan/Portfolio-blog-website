@@ -7,6 +7,7 @@ description: This post shows how you can use bookmarklets to toggle the
 slug: bookmarklets
 tags:
   - post
+  - Javascript
 draft: false
 ---
 This post is a step by step process on how you can use bookmarklets to toggle the visibility of the YouTube control panel using simple JavaScript. So how did I get this idea? 
