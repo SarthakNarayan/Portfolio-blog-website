@@ -4,7 +4,7 @@ cover: /media/gumroad-thumbnail.png
 date: 2021-08-21T04:43:34.651Z
 description: Tutorial on how to create an amazing Notion workspace which is
   simple and effective.
-slug: Notion Portfolio
+slug: notion-workspace
 tags:
   - Notion
   - post
