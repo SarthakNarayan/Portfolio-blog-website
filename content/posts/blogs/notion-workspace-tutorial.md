@@ -8,6 +8,8 @@ slug: notion-workspace
 tags:
   - Notion
   - post
+draft: false
+hide: true
 ---
 If you want to build a fantastic Notion workspace, then you are at the right place. In this article, we will go into detail about how to make a simple yet effective Notion workspace. If you have purchased this template, I would like to thank you for your support, and it means a lot to me. If you stumbled upon this link from any other place, you are free to follow along. So for those of you who have no idea about Notion, it is a fantastic tool that can help you manage your life and get your things into a single place. It is very powerful. In building our workspace, we are going to take the database first approach. People familiar with Notion would be fuming at me since I should have just given a link for duplicating the template. But in my case, this is not possible since there is a lot of reference to links and databases, which won't be there when you duplicate the template; hence it is best to build it from scratch.
 
