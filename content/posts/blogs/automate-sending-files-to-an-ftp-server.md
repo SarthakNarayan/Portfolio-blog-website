@@ -10,6 +10,7 @@ tags:
   - python
   - post
 draft: true
+hide: true
 ---
 As developers, we love automation, and I am no different. I want to share an automation project which I worked on recently. Before going into what I did, I want to explain what I wanted to achieve. So whenever I am out for a walk or gym, I like to listen to podcasts or YouTube videos. The catch is that I feel that there are some YouTube videos that I am better of listening to rather than consuming it along with the video. One way of achieving this is to have a YouTube Premium subscription and let the video play in the background. But I feel this is an unnecessary wastage of bandwidth, and there are other platforms where people have excellent podcasts like twitch. I thought it would be better to download the podcasts/videos and have them with me. It would also be helpful if there are connectivity issues.
 
