@@ -8,7 +8,7 @@ slug: ftpautomation
 tags:
   - automation
   - python
-  - post
+  - project
 draft: false
 hide: false
 ---
