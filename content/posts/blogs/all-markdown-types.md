@@ -34,4 +34,17 @@ def python():
 
 1. Number points
 
-![Alternate text ](/media/screenshot-2021-11-03-at-8.06.31-pm.png "Image title")
+![Alternate text ](/media/useless-images/all-markdown-types.png "Image title")
+
+code folding
+<details>
+<summary>I could use some help...</summary>
+<p>
+
+```python
+def helloworld():
+  print("hello")
+```
+
+</p>
+</details>
