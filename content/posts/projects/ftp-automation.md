@@ -1,10 +1,9 @@
 ---
 title: Automate sending files to an FTP server
-cover: /media/sai-kiran-anagani-tjbk79tarie-unsplash.jpg
+cover: /media/ftp-automation/cover-ftp.jpg
 date: 2021-11-07T09:21:35.034Z
 description: In this blog post I try to provide a detailed explanation on my
   project FTP-Automation
-slug: ftpautomation
 tags:
   - automation
   - python

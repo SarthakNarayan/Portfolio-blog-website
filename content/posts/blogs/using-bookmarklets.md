@@ -1,14 +1,14 @@
 ---
-title: "Using bookmarklets "
-cover: /media/using-bookmarklets-cover.jpg
+title: "Using bookmarklets"
+cover: /media/using-bookmarklets/cover-bookmarklet.jpg
 date: 2021-05-29T15:02:48.381Z
 description: This post shows how you can use bookmarklets to toggle the
   visibility the YouTube control panel.
-slug: bookmarklets
 tags:
   - post
   - Javascript
 draft: false
+hide: false
 ---
 This post is a step by step process on how you can use bookmarklets to toggle the visibility of the YouTube control panel using simple JavaScript. So how did I get this idea? 
 
@@ -22,6 +22,10 @@ Another question I pondered on was whether I should use a bookmarklet or a brows
 * A bookmarklet isn't dependent on the browser, while extensions are made for particular browsers. You can use any bookmarklet in any browser, and it works exactly the same way.
 
 With differences out of the way we can focus on the code.
+
+<details>
+<summary style="font-size: 22px; font-weight: bold">Code</summary>
+<p>
 
 ```javascript
 let data = document.getElementsByClassName('ytp-chrome-top')[0].style.visibility;
@@ -51,11 +55,14 @@ else {
 }
 ```
 
+</p>
+</details>
+
 We can see that code is nothing but simple DOM manipulations. The class names can be found using element selector in inspect element (CTRL + SHIFT + I). Hover it over any attribute to get its class name. 
 
 Example Image
 
-![](/media/image-3-bookmarklets.png)
+![](/media/using-bookmarklets/image-3-bookmarklets.png)
 
 Once we are done writing the code we have to convert it so that we can use it as a URL for a bookmark. There are sites that can do this conversion. [JS to bookmarklet conversion website](https://www.yourjs.com/bookmarklet/).
 
@@ -63,9 +70,9 @@ Paste your code in the JS section and click on convert to Data URL button. Wait 
 
 Now follow the steps given below
 
-![](/media/image1-post-bookmarklets.png "Right-click on the bookmark bar (below the address bar) and then select Add page")
+![](/media/using-bookmarklets/image1-post-bookmarklets.png "Right-click on the bookmark bar (below the address bar) and then select Add page")
 
-![](/media/image2-post-bookmarklets.png "Paste the code in the URL section, name the extension and save it.")
+![](/media/using-bookmarklets/image2-post-bookmarklets.png "Paste the code in the URL section, name the extension and save it.")
 
 Now go to any YouTube video and click on the bookmarklet and it should be working as expected.
 

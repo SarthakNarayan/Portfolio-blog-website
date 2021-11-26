@@ -1,6 +1,6 @@
 ---
 title: Gaze Tracking
-cover: /media/gaze-tracking-cover-image.png
+cover: /media/gaze-tracking/cover-gaze.png
 date: 2019-08-21T06:10:16.015Z
 description: To build googles which could find where the user was looking,
   duration of the attention on that object and type of the object.
@@ -9,6 +9,8 @@ tags:
   - Python
   - Deep-Learning
   - PyTorch
+draft: false
+hide: false
 ---
 The goggles had three camera modules, two for tracking the pupil movement and the third for mapping the gaze to the real world. Computer vision algorithms were used for detecting the pupils, and SSD was used for object detection. Parameters like pupil velocity and acceleration were calculated for further statistical analysis. A GUI was made using Tkinter to make it easy to use.
 
@@ -16,9 +18,9 @@ The goggles had three camera modules, two for tracking the pupil movement and th
 
 <div style="text-align: center"> 
 
-![Image of top view camera placement of googles](/media/gaze_tracking2.jpeg "Top view")
+![Image of top view camera placement of googles](/media/gaze-tracking/gaze_tracking2.jpeg "Top view")
 
-![Image of side view camera placement on googles](/media/gaze_tracking1.jpeg "Side view")
+![Image of side view camera placement on googles](/media/gaze-tracking/gaze_tracking1.jpeg "Side view")
 
 </div>
 

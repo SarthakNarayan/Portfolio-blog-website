@@ -7,6 +7,8 @@ tags:
   - Deep-Learning
   - PyTorch
   - Python
+draft: false
+hide: false
 ---
 Origin Health is a Singapore-based medical health startup to identify congenital disabilities from ultrasound scans using Deep Learning for image segmentation. I am a part of the image segmentation team and the package development team. As an image segmentation team member, I built better deep learning models for more robust and accurate segmentation maps. As a package development team member, I was responsible for maintaining the segmentation package, fixing bugs, and adding new functionality.
 
