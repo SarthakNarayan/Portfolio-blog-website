@@ -6,7 +6,7 @@ description: In this blog post I try to provide a detailed explanation on my
   project FTP-Automation
 tags:
   - automation
-  - python
+  - Python
   - project
 draft: false
 hide: false
