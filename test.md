@@ -4,7 +4,7 @@ published: false
 description: A discord mute bot for muting and unmuting everyone in the voice channel
 ---
 
-![Image of Add to Inventory Interface](/media/inventory-management/add-to-inventory-image.png "Add to inventory interface")
+![Image of Add to Inventory Interface](/static/media/inventory-management/add-to-inventory-image.png "Add to inventory interface")
 
 During the pandemic, one of the most famous multiplayer games was Among Us. Although it had a chat feature, it lacked an in-game voice feature, which meant many people were using discord. The only problem being that you had to manually mute everyone when the round started and unmute them in meetings. This was a tedious process. So I decided to automate it by building a discord bot using the discord API. The project was hosted on Heroku.
 
