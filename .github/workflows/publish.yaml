@@ -15,7 +15,7 @@ jobs:
         with:
           devto_key: ${{ secrets.DEVTO_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          files: "content/posts/projects/ftp-automation.md"
+          files: "test.md"
           branch: experimental
           # (Optional) Use conventional commit messages. Default is false.
           # See https://www.conventionalcommits.org.
