@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     siteTitle: 'Sarthak Narayan',
-    siteDescription: 'Sarthak blog cum personal portfolio website',
+    siteDescription: "Sarthak's blog cum personal portfolio website",
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://sarthak-narayan.netlify.app/',
     pathPrefix: '/',
@@ -26,6 +26,10 @@ module.exports = {
       {
         icon: `linkedin`,
         url: `https://www.linkedin.com/in/sarthaknarayan/`,
+      },
+      {
+        icon: `chromecast`,
+        url: `https://sarthak-narayan.netlify.app/rss.xml`,
       },
     ],
   },
@@ -93,5 +97,76 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: 'gatsby-plugin-feed-mdx',
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              title: siteTitle
+              description: siteDescription 
+              siteUrl
+              site_url: siteUrl
+            }
+          }
+        }
+      `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              let feed_array = []
+              for (edge of allMdx.edges) {
+                if (edge.node.frontmatter.hide != null && edge.node.frontmatter.hide == false) {
+                  let feed = Object.assign({}, {
+                    description: edge.node.frontmatter.description,
+                    title: edge.node.frontmatter.title,
+                    date: edge.node.frontmatter.date,
+                    author: 'Sarthak Narayan',
+                    url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                    guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                    categories: edge.node.frontmatter.tags
+                  });
+                  // console.log(JSON.stringify(edge.node.frontmatter))
+                  feed_array.push(feed)
+                }
+              }
+              return feed_array
+            },
+            query: `
+            {
+              allMdx(
+                sort: { order: DESC, fields: [frontmatter___date] },
+              ) {
+                edges {
+                  node {
+                    fields { slug }
+                    frontmatter {
+                      title
+                      description
+                      date
+                      hide
+                      tags
+                    }
+                  }
+                }
+              }
+            }
+          `,
+            output: '/rss.xml',
+            title: 'RSS feed for website',
+            // optional configuration to insert feed reference in pages:
+            // if `string` is used, it will be used to create RegExp and then test if pathname of
+            // current page satisfied this regular expression;
+            // if not provided or `undefined`, all pages will have feed reference inserted
+            match: '^/blogs/',
+            feed_url: 'https://sarthak-narayan.netlify.app/rss.xml',
+            managingEditor: 'Sarthak Narayan',
+            webMaster: 'Sarthak Narayan',
+            copyright: 'Sarthak Narayan'
+          }
+        ]
+      }
+    }
   ],
 };
