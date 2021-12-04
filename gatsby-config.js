@@ -119,6 +119,7 @@ module.exports = {
               for (edge of allMdx.edges) {
                 if (edge.node.frontmatter.hide != null && edge.node.frontmatter.hide == false) {
                   let feed = Object.assign({}, {
+                    // commented since most feedreaders take this instead of html
                     // description: edge.node.frontmatter.description,
                     title: edge.node.frontmatter.title,
                     date: edge.node.frontmatter.date,
@@ -126,7 +127,7 @@ module.exports = {
                     url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                     guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                     categories: edge.node.frontmatter.tags,
-                    custom_elements: [{ "content:encoded": edge.node.html }],
+                    custom_elements: [{ "content:encoded": edge.node.rawBody }],
                   });
                   // console.log(JSON.stringify(edge.node.frontmatter))
                   feed_array.push(feed)
@@ -142,6 +143,7 @@ module.exports = {
                 edges {
                   node {
                     html
+                    rawBody
                     fields { slug }
                     frontmatter {
                       title
