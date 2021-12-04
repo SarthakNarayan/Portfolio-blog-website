@@ -2,6 +2,7 @@
 title: Testing github action.
 published: false
 description: A discord mute bot for muting and unmuting everyone in the voice channel
+id: 917251
 ---
 
 ![Image of Add to Inventory Interface](/static/media/inventory-management/add-to-inventory-image.png "Add to inventory interface")
