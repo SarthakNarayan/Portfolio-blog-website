@@ -127,7 +127,7 @@ module.exports = {
                     url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                     guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                     categories: edge.node.frontmatter.tags,
-                    custom_elements: [{ "content:encoded": edge.node.rawBody }],
+                    custom_elements: [{ "content": edge.node.html }],
                   });
                   // console.log(JSON.stringify(edge.node.frontmatter))
                   feed_array.push(feed)
@@ -143,7 +143,6 @@ module.exports = {
                 edges {
                   node {
                     html
-                    rawBody
                     fields { slug }
                     frontmatter {
                       title
