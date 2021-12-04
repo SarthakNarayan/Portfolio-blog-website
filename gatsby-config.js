@@ -119,7 +119,7 @@ module.exports = {
               for (edge of allMdx.edges) {
                 if (edge.node.frontmatter.hide != null && edge.node.frontmatter.hide == false) {
                   let feed = Object.assign({}, {
-                    description: edge.node.frontmatter.description,
+                    // description: edge.node.frontmatter.description,
                     title: edge.node.frontmatter.title,
                     date: edge.node.frontmatter.date,
                     author: 'Sarthak Narayan',
