@@ -1,7 +1,7 @@
 ---
 title: Avoid rm
 cover: /media/avoid-rm/cover-avoid-rm.png
-date: 2021-12-22
+date: 2022-02-10
 description: A small article on why your should avoid using rm in *nix based OS whenever possible.
 tags:
   - post
@@ -9,6 +9,7 @@ tags:
 draft: false
 hide: false
 ---
+
 This article discusses why you should avoid `rm` command in `*nix` based operating systems. It is impossible to prevent it entirely since you will need to delete files/folders from your system. But it is generally a good idea to move the files/folders you want to delete to a recycle bin and then delete them after some time. I will also share the script and modification I used to adopt this setup.
 
 But before diving in those of you unfamiliar with `rm`, it is a command used to remove objects such as files, directories, symbolic links, etc. More precisely, `rm` removes reference/pointer to objects from the filesystem. If you have multiple pointers to the file (hard links), then deleting one of those pointers with `rm` leaves the others completely untouched and the data still available. Deleting all of those links still does not touch the data; however, the OS is now free to reuse the previously reserved blocks for storing that data.
@@ -37,9 +38,9 @@ done
 
 This script takes file/folder names as arguments and moves them into recycle bin (in my case, a Trash folder in my home directory). If you have files/folders with spaces between them, wrap them in quotes.
 
-Once you have made this bash script, there are many ways to execute it. One way is creating an alias in your shell's rc file.  I use a lot of custom scripts, so I choose not to litter my shell's rc file. I have a folder named mySrcipts, where I keep all my scripts and have added it to my path. This way, I can execute it from anywhere. Also, I don't have file extensions for myScripts; I can use <span style="color: #ffcccb; font-weight: bold">del file_name</span> instead of <span style="color: #ffcccb; font-weight: bold">del.sh file_name</span>.
+Once you have made this bash script, there are many ways to execute it. One way is creating an alias in your shell's rc file. I use a lot of custom scripts, so I choose not to litter my shell's rc file. I have a folder named mySrcipts, where I keep all my scripts and have added it to my path. This way, I can execute it from anywhere. Also, I don't have file extensions for myScripts; I can use <span style="color: #ffcccb; font-weight: bold">del file_name</span> instead of <span style="color: #ffcccb; font-weight: bold">del.sh file_name</span>.
 
-**Note: File extensions have no meaning in *nix based systems; they are just there for user's ease, unlike windows.**
+**Note: File extensions have no meaning in \*nix based systems; they are just there for user's ease, unlike windows.**
 
 The last thing to do is somehow create a safeguard so that you can't use the rm command. For this, I have made a simple modification to my shell's rc file by adding an alias.
 
