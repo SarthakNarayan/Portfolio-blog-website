@@ -5,6 +5,7 @@ date: 2022-05-12
 description: I short blog on how I cleared my AWS SAA exam. Resources I used and some tips from my side.
 tags:
   - post
+  - aws
 draft: false
 hide: false
 ---
