@@ -2,7 +2,7 @@
 title: Yay! I cleared AWS SAA Exam
 cover: /media/saa-exam/cover-saa-exam.png
 date: 2022-05-12
-description: I short blog on how I cleared my AWS SAA exam. Resources I used and some tips from my side.
+description: A short blog on how I cleared my AWS SAA exam. Resources I used and some tips from my side.
 tags:
   - post
   - aws
@@ -10,7 +10,7 @@ draft: false
 hide: false
 ---
 
-If you are a recruiter reading this blog,
+If you are a recruiter reading this blog
 
 - [Link to the badge](https://www.credly.com/badges/2d489186-d9ab-4ce7-a047-608d18f34f46/public_url)
 - [Link to the certificate](https://drive.google.com/file/d/17itgKdemTspJWG4TjP8s2vMdmCEwCn0C/view?usp=sharing)
