@@ -10,7 +10,8 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "start": "gatsby develop",
-    "dev": "npm run clean && npm run start"
+    "dev": "npm run clean && npm run start",
+    "prod": "gatsby build && gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.23.3",
