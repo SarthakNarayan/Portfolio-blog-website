@@ -9,6 +9,7 @@ tags:
   - Docker
   - automation
   - project
+  - GitHub Actions
 draft: false
 hide: false
 ---
