@@ -11,7 +11,7 @@ module.exports = {
     ogLanguage: `en_US`,
     author: "Sarthak Narayan", // for example - 'Ivan Ganev'
     authorDescription: "", // short text about the author
-    avatar: "/mypic.jpg",
+    avatar: "/small-pic.jpg",
     twitterSite: "", // website account on twitter
     twitterCreator: "", // creator account on twitter
     social: [
