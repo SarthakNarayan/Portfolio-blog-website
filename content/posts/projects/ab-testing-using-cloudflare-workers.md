@@ -64,9 +64,9 @@ Upon looking for appropriate solutions I found that Cloudflare workers would be 
 
 I exposed different endpoints to make the application easy to use. I created one for adding links (`POST /keys`), one for getting the number of times a link was visited (`GET /values`), one for deleting all the links, etc.
 
-If you visit https://wrangler-tutorial.sarthak-narayan.workers.dev/ you can see it in action. Currently, it is routing to either https://google.com or https://example.com.
+If you visit <a href="https://wrangler-tutorial.sarthak-narayan.workers.dev/" target="_blank"> wrangler-tutorial.sarthak-narayan.workers.dev </a> you can see it in action. Currently, it is routing to either <a href="https://google.com" target="_blank"> google.com</a> or <a href="https://example.com" target="_blank"> example.com</a>.
 
-You can also see the number of times these links have been used for redirection by going to https://wrangler-tutorial.sarthak-narayan.workers.dev/values.
+You can also see the number of times these links have been used for redirection by going to <a href="https://wrangler-tutorial.sarthak-narayan.workers.dev/values" target="_blank"> wrangler-tutorial.sarthak-narayan.workers.dev/values</a>.
 
 ## References/Links
 
