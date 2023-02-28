@@ -33,6 +33,7 @@ AWS SAA is not an entry-level certification. The entry-level cert offered by AWS
 - It took me close to **2.5 months** to get the certification. I used to study 1-2 hours on weekdays after my full-time job and around 4-5 hours on weekends. Your mileage may vary.
 - I gave the exam online using PSI.
 - I made comprehensive notes using obsidian.
+  - Link to my notes: [101 AWS SAA Index - Sarthak's Notes (sarthaknarayan.tech)](https://notes.sarthaknarayan.tech/100%20study-notes/101%20aws%20saa/101%20aws%20saa%20index/)
 - **I managed to score 874/1000**. If you know more about the marking system of the exam refer this blog [Demystifying your AWS Certification exam score | AWS Training and Certification Blog (amazon.com)](https://aws.amazon.com/blogs/training-and-certification/demystifying-your-aws-certification-exam-score/).
 
 ## Resources I used for preparing for the exam
