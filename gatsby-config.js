@@ -17,33 +17,33 @@ module.exports = {
     social: [
       {
         icon: `envelope`,
-        url: `mailto:sarthak.narayang@gmail.com`
+        url: `mailto:sarthak.narayang@gmail.com`,
       },
       {
         icon: `github`,
-        url: `https://github.com/SarthakNarayan`
+        url: `https://github.com/SarthakNarayan`,
       },
       {
         icon: `linkedin`,
-        url: `https://www.linkedin.com/in/sarthaknarayan/`
+        url: `https://www.linkedin.com/in/sarthaknarayan/`,
       },
       {
         icon: `chromecast`,
-        url: `https://sarthaknarayan.tech/rss.xml`
+        url: `https://sarthaknarayan.site/rss.xml`,
       },
       {
         icon: `leanpub`,
-        url: `https://notes.sarthaknarayan.tech`
-      }
-    ]
+        url: `https://notes.sarthaknarayan.site`,
+      },
+    ],
   },
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: path.join(__dirname, `static`, `media`),
-        name: "media"
-      }
+        name: "media",
+      },
     },
     {
       resolve: "gatsby-theme-chronoblog",
@@ -53,7 +53,7 @@ module.exports = {
           feedShowMoreButton: "show more",
           feedSearchPlaceholder: "search",
           cardReadMoreButton: "read more →",
-          allTagsButton: "all tags"
+          allTagsButton: "all tags",
         },
         feedItems: {
           // global settings for feed items
@@ -62,14 +62,14 @@ module.exports = {
           yearSeparatorSkipFirst: true,
           contentTypes: {
             links: {
-              beforeTitle: "🔗 "
-            }
-          }
+              beforeTitle: "🔗 ",
+            },
+          },
         },
         feedSearch: {
-          symbol: "🔍"
-        }
-      }
+          symbol: "🔍",
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -80,25 +80,25 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#3a5f7d`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`
-      }
+        icon: `src/assets/favicon.png`,
+      },
     },
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-174004633-1"
-      }
+        trackingId: "UA-174004633-1",
+      },
     },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         publicPath: `admin`,
-        modulePath: path.join(__dirname, `src`, `netlifycms`, "cms.js")
-      }
+        modulePath: path.join(__dirname, `src`, `netlifycms`, "cms.js"),
+      },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
     {
@@ -136,7 +136,7 @@ module.exports = {
                       url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                       guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                       categories: edge.node.frontmatter.tags,
-                      custom_elements: [{ "content:encoded": edge.node.html }]
+                      custom_elements: [{ "content:encoded": edge.node.html }],
                     }
                   );
                   // console.log(JSON.stringify(edge.node.frontmatter))
@@ -171,10 +171,10 @@ module.exports = {
             feed_url: "https://sarthak-narayan.netlify.app/rss.xml",
             managingEditor: "Sarthak Narayan",
             webMaster: "Sarthak Narayan",
-            copyright: "Sarthak Narayan"
-          }
-        ]
-      }
-    }
-  ]
+            copyright: "Sarthak Narayan",
+          },
+        ],
+      },
+    },
+  ],
 };

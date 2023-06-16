@@ -38,7 +38,7 @@ Therefore, I decided to pursue the AWS Developer Associate (DVA) certification a
   - I felt the process was pretty smooth and much more relaxed than the online exam.
   - If you have the option, always go for an offline examination.
 - I made comprehensive notes using obsidian.
-  - Link to my notes: <a href="https://notes.sarthaknarayan.tech/100%20study-notes/102%20aws%20dva/102%20aws%20dva%20index/" target="_blank">102 AWS DVA Index - Sarthak&#39;s Notes (sarthaknarayan.tech)</a>
+  - Link to my notes: <a href="https://notes.sarthaknarayan.site/100%20study-notes/102%20aws%20dva/102%20aws%20dva%20index/" target="_blank">102 AWS DVA Index - Sarthak&#39;s Notes (sarthaknarayan.site)</a>
 - **I managed to get a full score of 1000/1000**.
   - If you know more about the marking system of the exam refer to this blog <a href="https://aws.amazon.com/blogs/training-and-certification/demystifying-your-aws-certification-exam-score/" target="_blank">Demystifying your AWS Certification exam score | AWS Training and Certification Blog (amazon.com)</a>.
 
