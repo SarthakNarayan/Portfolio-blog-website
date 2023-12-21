@@ -6,6 +6,7 @@ description: A short blog on how I cleared my AWS SAA exam. Resources I used and
 tags:
   - post
   - aws
+  - certifications
 draft: false
 hide: false
 ---

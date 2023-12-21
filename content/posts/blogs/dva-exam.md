@@ -6,6 +6,7 @@ description: A short blog on how I cleared my AWS DVA (Developer Associate) exam
 tags:
   - post
   - aws
+  - certifications
 draft: false
 hide: false
 ---
