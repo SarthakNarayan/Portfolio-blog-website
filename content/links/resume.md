@@ -7,4 +7,4 @@ tags:
   - resume
 ---
 
-<iframe src="https://drive.google.com/file/d/1ivh9T596JYhb7I9xl5zHd3h-OSLVHUFP/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1ivh9T596JYhb7I9xl5zHd3h-OSLVHUFP/preview" width="640" height="640"></iframe>
