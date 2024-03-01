@@ -26,7 +26,7 @@ I use Netlify for serving my static content.
 
 ### References/Links
 
-- [My Digital Garden](https://notes.sarthaknarayan.site/)
+- [My Digital Garden](https://notes.sarthaknarayan.net/)
 - [Link to GitHub Action](https://github.com/project-cool/obsidian-publish-action)
 - [Link to Parser](https://github.com/project-cool/obsidian-to-mkdocs)
 - [Link to Squidfunk Theme](https://squidfunk.github.io/mkdocs-material/)

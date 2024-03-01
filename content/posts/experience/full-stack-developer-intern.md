@@ -4,24 +4,19 @@ date: 2021-03-21T13:20:50.637Z
 description: Buyer assist
 tags:
   - experience
-  - nodejs
-  - React
-  - Docker
-  - Javascript
 draft: false
 hide: false
 ---
-I worked as a full-stack developer intern at buyer assist. It is a startup that aims to simplify and ease B2B transactions between companies. While working on the frontend, I worked with **React** and **Keycloak** to build the app's login system. 
 
-In the backend, I was responsible for salesforce integration. I had to understand how salesforce works and how to make connected apps. It also involves several AWS services like 
+I worked as a full-stack developer intern at BuyerAssist. While working on the frontend, I worked with React and Keycloak to build the app's login system. In the backend, I was responsible for salesforce integration with the app. I worked with several AWS services using its SDK.
 
-* AWS Appflow for fetching the data from a salesforce account 
-* AWS Lambda for executing specific functions on getting the data
-* AWS S3 for storing the data 
-* AWS Eventbridge to link multiple lambdas depending upon the type of incoming event.
+- AWS Appflow for fetching the data from a salesforce account
+- AWS Lambda for executing specific functions on getting the data
+- AWS S3 for storing the data
+- AWS Eventbridge to link multiple lambdas depending upon the type of incoming event.
 
 **Internship duration:** 2 months
 
-**Skills:** React, Docker, nodejs, salesforce
+**Skills:** npm · TypeScript · Amazon Web Services (AWS) · Containerization · Debugging · React.js · Communication · Application Development · AWS Lambda · Serverless Computing · Problem Solving · REST APIs · Amazon S3
 
 **Language:** Typescript

@@ -29,11 +29,11 @@ module.exports = {
       },
       {
         icon: `chromecast`,
-        url: `https://sarthaknarayan.site/rss.xml`,
+        url: `https://sarthaknarayan.net/rss.xml`,
       },
       {
         icon: `leanpub`,
-        url: `https://notes.sarthaknarayan.site`,
+        url: `https://notes.sarthaknarayan.net`,
       },
     ],
   },
