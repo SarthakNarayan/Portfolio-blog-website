@@ -1,6 +1,6 @@
 ---
 title: DevOps Engineer
-date: 2021-09-02T13:20:50.637Z
+date: 2022-09-02T13:20:50.637Z
 description: 16Bit
 tags:
   - experience
